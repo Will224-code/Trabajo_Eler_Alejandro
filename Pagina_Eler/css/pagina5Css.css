@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    background: #0074D9;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+main {
+    max-width: 1000px;
+    margin: 2em auto;
+    background: white;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+section {
+    margin-bottom: 2em;
+}
+pre {
+    background: #272822;
+    color: #f8f8f2;
+    padding: 1em;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.galeria {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.galeria img {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    background: #fff;
+}

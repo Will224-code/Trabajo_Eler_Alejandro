@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta Minecraft Java</title>
+    <link rel="stylesheet" href="css/pagina4Css.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Encuesta de Minecraft Java</h1>
+        <h2>Echo por Eler: </h2>
+        <form id="minecraft-form">
+            <div class="question">
+                <label for="q1">1. Cuantas veses juegas Minecraft a la semana?</label>
+                <select id="q1" name="q1" required>
+                    <option value="">Elige una opcion</option>
+                    <option value="diario">Diario</option>
+                    <option value="algunas">Algunas veces</option>
+                    <option value="raro">Raro</option>
+                    <option value="nunca">Nunca</option>
+                </select>
+            </div>
+            <div class="question">
+                <label for="q2">2. Cual es tu mob favorito?</label>
+                <input type="text" id="q2" name="q2" required>
+            </div>
+            <div class="question">
+                <label for="q3">3. Prefieres jugar solo o con amigos?</label>
+                <input type="radio" id="q3a" name="q3" value="solo" required>
+                <label for="q3a">Solo</label>
+                <input type="radio" id="q3b" name="q3" value="amigos">
+                <label for="q3b">Con amigos</label>
+            </div>
+            <div class="question">
+                <label for="q4">4. Te gusta construir o explorar mas?</label>
+                <input type="radio" id="q4a" name="q4" value="construir" required>
+                <label for="q4a">Construir</label>
+                <input type="radio" id="q4b" name="q4" value="explorar">
+                <label for="q4b">Explorar</label>
+            </div>
+            <div class="question">
+                <label for="q5">5. Cual es tu version favorita de Minecraft Java?</label>
+                <input type="text" id="q5" name="q5">
+            </div>
+            <div class="question">
+                <label for="q6">6. Usas mods o shaders?</label>
+                <input type="radio" id="q6a" name="q6" value="si" required>
+                <label for="q6a">Si</label>
+                <input type="radio" id="q6b" name="q6" value="no">
+                <label for="q6b">No</label>
+            </div>
+            <div class="question">
+                <label for="q7">7. Kual es tu bioma menos faborito?</label>
+                <input type="text" id="q7" name="q7">
+            </div>
+            <div class="question">
+                <label for="q8">8. Has matado al dragón del End?</label>
+                <select id="q8" name="q8" required>
+                    <option value="">Elige una opcion</option>
+                    <option value="si">Si</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            <div class="question">
+                <label for="q9">9. Cual es tu bloque favorito?</label>
+                <input type="text" id="q9" name="q9">
+            </div>
+            <div class="question">
+                <label for="q10">10. Escribe un comentario o sugerencia:</label>
+                <textarea id="q10" name="q10" rows="3"></textarea>
+            </div>
+            <button type="submit">Enviar Encuesta</button>
+        </form>
+    </div>
+    <script src="js/pagina4Js.js"></script>
+</body>
+</html>
